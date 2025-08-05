@@ -1,0 +1,129 @@
+/* Reusing most styles from Project.css as they are similar for list and form */
+.team-member-list-container,
+.team-member-form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.team-member-list-header,
+.team-member-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.team-member-list-header h2,
+.team-member-form-header h2 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+.team-member-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.team-member-table th,
+.team-member-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.team-member-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+.team-member-table td img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* For circular team photos */
+}
+
+.team-member-actions button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.team-member-actions .edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.team-member-actions .edit-button:hover {
+  background-color: #0056b3;
+}
+
+.team-member-actions .delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.team-member-actions .delete-button:hover {
+  background-color: #c82333;
+}
+
+.team-member-form .form-group {
+  margin-bottom: 20px;
+}
+
+.team-member-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.team-member-form input[type="text"],
+.team-member-form input[type="url"],
+.team-member-form textarea,
+.team-member-form input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.team-member-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.team-member-form button[type="submit"] {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.team-member-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.team-member-form .image-preview {
+  margin-top: 10px;
+  max-width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}

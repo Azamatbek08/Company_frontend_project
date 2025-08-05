@@ -1,0 +1,152 @@
+.project-list-container,
+.project-form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.project-list-header,
+.project-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.project-list-header h2,
+.project-form-header h2 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+.add-button,
+.back-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.back-button {
+  background-color: #6c757d;
+}
+
+.back-button:hover {
+  background-color: #5a6268;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.project-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+.project-table td img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.project-actions button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.project-actions .edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.project-actions .edit-button:hover {
+  background-color: #0056b3;
+}
+
+.project-actions .delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.project-actions .delete-button:hover {
+  background-color: #c82333;
+}
+
+.project-form .form-group {
+  margin-bottom: 20px;
+}
+
+.project-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.project-form input[type="text"],
+.project-form input[type="url"],
+.project-form textarea,
+.project-form input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.project-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.project-form button[type="submit"] {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.project-form .image-preview {
+  margin-top: 10px;
+  max-width: 200px;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}

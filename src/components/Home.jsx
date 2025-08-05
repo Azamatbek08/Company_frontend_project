@@ -273,7 +273,7 @@ function Home() {
           <div className="team-grid">
             {team.map((member) => (
               <div key={member.id} className="team-member">
-                <img src={member.image || "/placeholder.svg"} alt={member.full_name} />
+                <img src={member.photo || "/placeholder.svg"} alt={member.full_name} />
                 <h4>{member.full_name}</h4>
                 <p>{member.position}</p>
               </div>
